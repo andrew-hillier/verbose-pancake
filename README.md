@@ -10,14 +10,3 @@ docker compose up -d
 go run .
 
 ```
-
-Managing dependencies:
-``` pwsh
-
-# tidy up the go.mod file (adding or removing dependencies as necessary)
-go mod tidy
-
-# list updatable dependencies
-go list -m -u all
-
-```
